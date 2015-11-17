@@ -1,3 +1,6 @@
 applications:
 - name: myapp
   command: node index.js
+  mem: 48M
+  instances: 10
+  disk_quota: 48M
