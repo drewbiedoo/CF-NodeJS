@@ -4,7 +4,7 @@ var envport = process.env.PORT || 8888;
 var instance = process.env.CF_INSTANCE_INDEX;
 //var envport = 3000
 app.get('/', function (req, res) {
-  res.send('<head>Hello World! Instance=' + instance + '</head>');
+  res.send('<head>Hello World! Instance # ' + instance + '</head>');
 });
 
 var server = app.listen(envport, function () {
